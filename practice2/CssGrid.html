@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Css Grid</title>
+    <style>
+        * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid-container>div {
+    background-color: #9884fc;
+    border: 1px solid #9884fc;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid-container2>div {
+    background-color: #9884fc;
+    border: 1px solid #9884fc;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid-container3>div {
+    background-color: #9884fc;
+    border: 1px solid #9884fc;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid-container4>div {
+    background-color: #9884fc;
+    border: 1px solid #9884fc;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid-container5>div {
+    background-color: #9884fc;
+    border: 1px solid #9884fc;
+    text-align: center;
+    font-size: 30px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid-container">
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+            <div>span1</div>
+
+        </div>
+        <div class="grid-container2">
+            <div>span4</div>
+            <div>span4</div>
+            <div>span4</div>
+
+        </div>
+        <div class="grid-container3">
+            <div>span4</div>
+            <div>span8</div>
+
+        </div>
+        <div class="grid-container4">
+            <div>span6</div>
+            <div>span6</div>
+
+        </div>
+        <div class="grid-container5">
+
+            <div>span12</div>
+
+        </div>
+    </div>
+</body>
+
+</html>

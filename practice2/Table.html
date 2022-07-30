@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+ <style>
+     * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body,
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.head {
+    background-color: #0b9376;
+    border: 2 solid #0b9376;
+    color: white;
+    border: 2px solid #0b9376;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -2px -2px 11px 0px rgba(0, 0, 0, 0.81);
+    width:80% ;
+}
+
+th,
+td {
+    height: 50px;
+    width: 60px;
+    padding: 20px;
+}
+
+.row2 {
+    color: #0b9376;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: #f3f3f3;
+}
+
+.back {
+    background-color: white;
+}
+
+.row3 {
+    border-bottom: 1px solid #0b9376;
+}
+ </style>
+  
+</head>
+
+<body>
+    <table>
+        <tr class="head">
+            <th>
+                Rank
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Points
+            </th>
+            <th>
+                Team
+            </th>
+
+        </tr>
+        <tr class="back">
+            <td>
+                1
+            </td>
+            <td>
+                Domenic
+            </td>
+            <td>
+                88,110
+            </td>
+            <td>
+                dcode
+            </td>
+        </tr>
+        <tr class="row2">
+            <td>
+                2
+            </td>
+            <td>
+                Sally
+            </td>
+            <td>
+                72,400
+            </td>
+            <td>
+                Students
+            </td>
+        </tr>
+        <tr class="back row3">
+            <td>
+                3
+            </td>
+            <td>
+                Nick
+            </td>
+            <td>
+                52,300
+            </td>
+            <td>
+                dcode
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
